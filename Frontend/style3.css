@@ -1,0 +1,63 @@
+/*
+%=>parent dimensions
+rem=>root element[html] font-size
+em=>parent element font-size
+vh=>viewport height.   viewport basically jo website mai white interface hota hai;
+vw=>viewport width
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-size: 50px;/*aagar html mai font ki size badhayenge toh vo 1 rem ke equal ho jayegi toh jo 1 rem 16px default tha agar html mai font size 50 kiya toh 1 rem 50px hojayega*/
+}
+.parent{
+    height: 400px;
+    width: 50%;
+    background-color: wheat;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
+h1{
+    font-size: 2rem ;/*1 rem=16px*/
+}
+.child1{
+    font-size: 50px;
+}
+h2{
+    font-size: 2em;
+}
+@media (min-width:600px){
+    .parent{
+        width: 100%;
+        background-color: black;
+    }
+}
+.parent1{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child1{
+    flex-grow: 1;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: green;
+    border: 2px solid black;
+   
+    
+}
