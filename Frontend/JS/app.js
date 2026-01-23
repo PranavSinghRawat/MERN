@@ -102,7 +102,22 @@ console.log(skills);
 skills.add("Spring Boot");  
 skills.add("MERN");             
 skills.delete("DSA");          
-skills.clear();                 
+skills.clear();      
+ 
+const userMap = new Map();
+userMap.set("name", "Pranav");
+userMap.set("age", 25);
+userMap.set("city", "Pune");
+console.log(userMap.get("name"));
+console.log(userMap.size);
+userMap.delete("age");
+
+
+const numbers = [1, 2, 3, 4, 5];
+console.log(numbers.map(num => num * 2));
+console.log(numbers.filter(num => num > 2));
+console.log(numbers.reduce((sum, num) => sum + num, 0));
+console.log(numbers.find(num => num > 3));
 
 
 
