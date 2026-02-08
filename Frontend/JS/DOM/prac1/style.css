@@ -7,3 +7,23 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swap{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+button{
+    background-color: wheat;
+    height: 30px;
+}
