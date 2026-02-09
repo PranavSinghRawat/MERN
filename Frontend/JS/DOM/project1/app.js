@@ -1,6 +1,5 @@
 var box=document.querySelector('.box')
 var btn=document.querySelector('button')
-
 btn.addEventListener('click',function(){
     let c1=Math.floor(Math.random()*256)
     let c2=Math.floor(Math.random()*256)
