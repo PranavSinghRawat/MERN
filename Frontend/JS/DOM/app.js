@@ -7,6 +7,7 @@ var box=document.querySelector('.box');
 button.addEventListener('click',function(){
     box.style.backgroundColor='green'
 })
+
 h.addEventListener('click',function(){
     console.log('clicked on h');
     h.innerHTML="kuch bhi";
