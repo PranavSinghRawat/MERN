@@ -103,7 +103,6 @@ skills.add("Spring Boot");
 skills.add("MERN");             
 skills.delete("DSA");          
 skills.clear();      
- 
 const userMap = new Map();
 userMap.set("name", "Pranav");
 userMap.set("age", 25);
