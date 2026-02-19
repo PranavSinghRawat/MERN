@@ -95,8 +95,6 @@ student.college = "Bharati Vidyapeeth";
 
 
 const uniqueSkills = new Set();
-
-
 const skills = new Set(["MERN", "DSA", "MERN", "LeetCode"]);
 console.log(skills); 
 skills.add("Spring Boot");  
