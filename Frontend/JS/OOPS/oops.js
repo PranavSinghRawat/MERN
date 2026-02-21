@@ -18,8 +18,6 @@ t2.flavor="chocolate";
 t2.price=10;
 t2.expiry="2023-12-31";
 console.log(t2);
-
-
 function Human(name,age,isHandsome){
     this.name=name;
     this.age=age;
