@@ -32,8 +32,6 @@
 // }
 // testTaskClass();
 
-
-
 // for TaskManager
 // index.js (Node version)
 const Task = require('./Task');
