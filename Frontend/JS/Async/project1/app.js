@@ -53,24 +53,24 @@ function decoratedata(details) {
 
         <div>
           <p class="font-semibold">Followers</p>
-          <p>12000</p>
+          <p>${details.followers}</p>
         </div>
 
         <div>
           <p class="font-semibold">Following</p>
-          <p>10</p>
+          <p>${details.following}</p>
         </div>
 
         <div>
-          <p class="font-semibold">Repos</p>${details.public_repos}
-          <p>400</p>
+          <p class="font-semibold">Repos</p>
+          <p>${details.public_repos}</p>
         </div>
 
       </div>
 
       <!-- Profile Button -->
       <a 
-        href="#"
+        href="${details.html_url}"
         class="inline-block mt-4 bg-gray-900 text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition"
       >
         View GitHub Profile
