@@ -36,10 +36,8 @@ const App = () => {
       <button onClick={handleclick}>click</button>
 
       <button onClick={wrapper}>click(param)</button>
-
       <h1>Rendering json</h1>
       <ol>{updatedprofiles}</ol>
-
       <h2>Username</h2>
       <h3>{username}</h3>
       <button onClick={changehandler}>change username</button>
