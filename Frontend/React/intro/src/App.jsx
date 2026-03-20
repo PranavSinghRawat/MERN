@@ -34,7 +34,6 @@ const App = () => {
       <div>App</div>
       <div>hello world</div>
       <button onClick={handleclick}>click</button>
-
       <button onClick={wrapper}>click(param)</button>
       <h1>Rendering json</h1>
       <ol>{updatedprofiles}</ol>
