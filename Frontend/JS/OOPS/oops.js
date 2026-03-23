@@ -26,6 +26,15 @@ function Human(name,age,isHandsome){
 Human.prototype.sayhello=function(){
     console.log("hello");
 }
+function Sound(sound){
+    this.sound=sound;
+}
+Sound.prototype=Object.create(Human.prototype);
+Sound.prototype.constructor=Sound;
+Sound.prototype.play=function(){
+    console.log(this.sound);
+}
+
 let h1=new Human('pranav',20,true);
 h1.sayhello();
 console.log(h1);
